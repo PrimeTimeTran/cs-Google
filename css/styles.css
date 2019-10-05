@@ -3,13 +3,10 @@ body {
   margin: 0;
   height: 100%;
 }
+
 header {
   height: 50px;
   background: lightcyan;
-}
-footer {
-  height: 50px;
-  background: PapayaWhip;
 }
 
 body {
@@ -155,7 +152,6 @@ footer {
 
 footer > div {
   padding: 15px;
-  min-height: 50px;
   background-color: #f2f2f2;
   border-top: 1px solid #e4e4e4;
 }
