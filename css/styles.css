@@ -1,0 +1,143 @@
+html, body{ height:100%; margin:0; }
+header{ height:50px; background:lightcyan; }
+footer{ height:50px; background:PapayaWhip; }
+
+body{ 
+  display:flex; 
+  flex-direction:column; 
+}
+
+p {
+  font-size: 13px;
+}
+
+.main-content {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.image {
+  width: 400px;
+  height: auto;
+  cursor: pointer;
+}
+
+.input[type="text"] {
+  width: 600px;
+  height: 45px;
+  font-size: 20px;
+  padding-left: 60px;
+  margin-bottom: 0px;
+  border-radius: 25px;
+  border: 1px solid rgb(223, 223, 223);
+}
+input:focus {
+  border: 1px solid white;
+  outline: 0px solid white;
+  box-shadow: 0px 1px 5px 1px rgb(223, 223, 223);
+}
+
+input:hover {
+  border: 1px solid white;
+  outline: 0px solid white;
+  box-shadow: 0px 1px 5px 1px rgb(223, 223, 223);
+}
+
+.input {
+  box-shadow: none;
+}
+
+.buttons {
+  width: 100%;
+  margin-top: 5px;
+  box-align: left;
+  display: inline-block;
+}
+
+.button {
+  margin: 5px;
+  width: 200px;
+  height: 40px;
+  border: none;
+  font-size: 14px;
+  color: #5d5d5d;
+  border-radius: 5px;
+  background-color: #eeeeee;
+}
+
+.button:hover {
+  color: black;
+  border: 0.5px solid #bfbfbf;
+  box-shadow: 0px 0.5px 2px 1px rgb(223, 223, 223);
+}
+
+.mic {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  left: -50px;
+  top: 5px;
+}
+
+.search {
+  top: 35px;
+  right: 300px;
+  position: relative;
+}
+
+.nav {
+  text-align: right;
+  font-size: 13px;
+}
+
+.nav-item {
+  display: inline;
+}
+
+.nav-link {
+  padding: 5px;
+  color: inherit;
+}
+
+.fa-th {
+  color: #000;
+  cursor: pointer;
+  opacity: 0.55;
+  padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.dot {
+  height: 32px;
+  width: 32px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.styling-dot {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  padding-right: 20px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.languages-header > a {
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+
+footer {
+  margin-top:auto; 
+  background-color: red;
+}
